@@ -1,0 +1,33 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.db
+*.db-shm
+*.db-wal
+
+## Uploads (don't commit files)
+src/CdnApi.API/wwwroot/uploads/
+
+## User Secrets
+**/secrets.json
+appsettings.Production.json
+
+## Logs
+*.log
+logs/
+
+## dotnet publish
+publish/
+out/
+
+## NuGet
+*.nupkg
+.nuget/
+packages/
+
+## OS
+.DS_Store
+Thumbs.db
